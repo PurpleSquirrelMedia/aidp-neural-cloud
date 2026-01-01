@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (too large for git)
+models/
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# HuggingFace cache
+.cache/
+
+# Docker
+.docker/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
